@@ -22,7 +22,7 @@ const BuyTicket = () => {
               Join the Mega Millions lottery for a chance to win big! Draw date:
               October 30.
             </p>
-            <button className="capitalize font-bold text-white bg-orange rounded-2xl py-[6px] w-full text-[13px]">
+            <button className="capitalize font-bold text-white bg-orange rounded-2xl mt-2 py-[6px] w-full text-[13px]">
               Buy now{" "}
             </button>
           </div>
@@ -30,7 +30,7 @@ const BuyTicket = () => {
       </div>
       <div className="w-[86%] md:w-[28%] pt-[2rem] md:pr-[2.3rem] pb-[2rem] h-[60.8vh] md:h-full ">
         <div className="bg-lightGray w-full md:h-[71vh] rounded-xl p-5">
-          <h1 className="capitalize font-semibold text-xl mb-[7rem]">
+          <h1 className="capitalize font-semibold text-lg md:text-xl mb-[7rem]">
             your ticket
           </h1>
           <div>

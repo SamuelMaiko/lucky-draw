@@ -61,7 +61,7 @@ const Navbar = () => {
             <NavLink key={index} to={link.link}>
               <div
                 onClick={() => setOpenSidebar(false)}
-                className="text-orange py-2 text-[12px] hover:bg-white pl-2 rounded-md font-medium transition-colors duration-300 mb-2"
+                className="text-orange py-2 text-[13px] hover:bg-white pl-2 rounded-md font-medium transition-colors duration-300 mb-2"
               >
                 {link.title}
               </div>
