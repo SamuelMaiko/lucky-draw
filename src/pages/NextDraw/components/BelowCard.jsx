@@ -3,7 +3,7 @@ import React from "react";
 const BelowCard = ({ title, desc }) => {
   return (
     <div
-      className={`w-[17rem] p-5 
+      className={`w-[80%] md:w-[17rem] p-5 
     ${
       title.toLowerCase() == "how to participate"
         ? "bg-lightGray text-black"

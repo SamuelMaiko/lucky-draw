@@ -20,7 +20,7 @@ const NextDraw = () => {
           <CountDownTimer />
         </div>
       </div>
-      <div className="mt-[4rem] flex justify-center gap-7">
+      <div className="md:mt-[4rem] mt-[5rem] flex flex-col items-center md:flex-row md:justify-center gap-7">
         <BelowCard
           title="Win amazing prizes!"
           desc="Participate in the draw and stand a chance to win fantastic prizes.
