@@ -18,11 +18,11 @@ const HighlightCard = ({ title, desc, image }) => {
           className="w-full h-full object-cover object-center"
         />
       </div>
-      <h1 className="font-semibold text-[18px] mt-[0.7rem] capitalize">
+      <h1 className="font-semibold text-[15px] md:text-[18px] mt-[0.7rem] capitalize">
         {title}
       </h1>
       <p
-        className={`text-[13px]
+        className={`text-[12px] md:text-[13px]
         
         `}
       >

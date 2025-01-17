@@ -19,7 +19,7 @@ const BuyTicketFooter = () => {
 
   return (
     <div className="flex items-center justify-center px-[2rem] h-[4.5rem] bg-lightGray">
-      <ul className="flex gap-[1.2rem] text-[14px] font-medium ">
+      <ul className="flex gap-[1.2rem] md:text-[14px] text-[12px] font-medium ">
         {footer_links.map((link, index) => (
           <li key={index}>
             <a href={link.link}>{link.title}</a>

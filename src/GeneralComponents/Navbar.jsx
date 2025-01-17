@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  const [openSidebar, setOpenSidebar] = useState(true);
+  const [openSidebar, setOpenSidebar] = useState(false);
   const nav_links = [
     {
       title: "Home",
@@ -24,7 +24,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="font-poppins bg-orange text-white h-[5rem] w-full flex justify-between items-center px-[2rem]">
+    <div className="font-poppins bg-orange text-white h-[4.3rem] md:h-[5rem] w-full flex justify-between items-center px-[2rem]">
       <div className="flex gap-2">
         <span>
           <Star size={22} fill="white" />
@@ -61,7 +61,7 @@ const Navbar = () => {
             <NavLink key={index} to={link.link}>
               <div
                 onClick={() => setOpenSidebar(false)}
-                className="text-orange py-2 hover:bg-white pl-2 rounded-md font-medium transition-colors duration-300 mb-2"
+                className="text-orange py-2 text-[12px] hover:bg-white pl-2 rounded-md font-medium transition-colors duration-300 mb-2"
               >
                 {link.title}
               </div>

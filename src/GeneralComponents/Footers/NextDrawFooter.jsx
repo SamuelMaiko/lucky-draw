@@ -20,7 +20,7 @@ const NextDrawFooter = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between md:py-0 py-[1rem] gap-3 md:gap-0  px-[2rem] md:h-[4.5rem] bg-lightGray">
       <div className="order-2 md:order-1">
-        <p className="text-[13px] font-medium">
+        <p className="text-[12px] md:text-[13px] font-medium">
           &copy;2025 LuckyDraw. All rights reserved.
         </p>
       </div>

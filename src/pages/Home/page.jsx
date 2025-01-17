@@ -16,7 +16,7 @@ const Home = () => {
             className="w-full h-full object-cover object-center"
           />
         </div>
-        <button className="mt-[2.2rem] bg-orange text-white font-semibold px-5 py-2 rounded-xl text-[14px]">
+        <button className="mt-[2.2rem] bg-orange text-white font-semibold px-5 py-2 rounded-xl text-[12px] md:text-[14px]">
           Connect Address
         </button>
       </div>

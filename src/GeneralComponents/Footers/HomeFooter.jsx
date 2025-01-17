@@ -23,7 +23,7 @@ const HomeFooter = () => {
      bg-lightGray py-[1rem] md:py-0 gap-4 md:gap-0"
     >
       <div>
-        <ul className="flex gap-[1.2rem] text-[14px] font-medium ">
+        <ul className="flex gap-[1.2rem] text-[12px] md:text-[14px] font-medium ">
           {footer_links.map((link, index) => (
             <li key={index}>
               <a href={link.link}>{link.title}</a>
